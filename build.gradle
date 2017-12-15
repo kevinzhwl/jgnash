@@ -15,14 +15,14 @@ allprojects {
     targetCompatibility = 1.8
 
     group = 'jgnash'
-    version = '2.33.2'
+    version = '2.33.3'
 
     project.ext {
         junitVersion = '4.12'
 
         joptSimpleVerion = '5.0.4'
 
-        apachePoiVersion = '3.16'
+        apachePoiVersion = '3.17'
         commons_cvs = '1.5'
         commons_text = '1.1'
 
@@ -40,7 +40,7 @@ allprojects {
         c3p0Version = '0.9.5.2'
 
         dynamicJasperVersion = '5.1.0'
-        jasperReportsVersion = '6.4.1'
+        jasperReportsVersion = '6.4.3'
         itextVersion = '2.1.7.js6'
 
         nettyVersion = '4.1.17.Final'
@@ -92,7 +92,7 @@ subprojects {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '4.3.1'
+    gradleVersion = '4.4'
 }
 
 task distZip {
